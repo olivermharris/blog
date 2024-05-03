@@ -8,15 +8,15 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Oliver M. Harris",
+    pageTitle: "🪴 Quartz 4.0",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "git.olivermharris.co.uk/blog",
-    ignorePatterns: ["private", "templates", ".obsidian","config"],
+    baseUrl: "quartz.jzhao.xyz",
+    ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
